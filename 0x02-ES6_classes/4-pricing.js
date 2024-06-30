@@ -4,20 +4,24 @@ export default class Pricing {
     this._currency = currency;
   }
 
+  // Getter for _amount
   get amount() {
     return this._amount;
   }
 
-  set amount(n) {
-    this._amount = n;
+  // Setter for _amount
+  set amount(amount) {
+    this._amount = amount;
   }
 
+  // Getter for _currency
   get currency() {
     return this._currency;
   }
 
-  set currency(n) {
-    this._currency = n;
+  // Setter for _currency
+  set currency(currency) {
+    this._currency = currency;
   }
 
   displayFullPrice() {
